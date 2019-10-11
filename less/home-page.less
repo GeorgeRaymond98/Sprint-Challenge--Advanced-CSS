@@ -19,7 +19,7 @@
   }
 
   .space-images {
-    display: flex;
+    .displayFlex();
     flex-wrap: nowrap;
     width: 100%;
     justify-content: space-evenly;
@@ -41,7 +41,6 @@
     img {
       flex-basis:25%;
       width:100%;
-      // margin: 20px 2.5%;
       border-radius: 20px;
       // height: 100%;
       
@@ -55,7 +54,7 @@
     padding: 2rem;
     
     @media @phone {
-      display: flex;
+      .displayFlex();
       flex-direction: column;
       // align-items: center;
     }
@@ -73,7 +72,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 2rem;
-    display: flex;
+    .displayFlex();
     justify-content: space-around;
   
       @media @phone {
