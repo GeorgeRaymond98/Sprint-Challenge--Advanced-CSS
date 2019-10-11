@@ -160,27 +160,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.navBar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: lightgray;
-  padding: 1%;
-}
-.navBar nav {
-  justify-content: space-between;
-}
-.navBar nav h1 {
-  font-size: 3.5rem;
-  margin-bottom: 2%;
-  text-align: center;
-}
-.navBar nav a {
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding: 10px;
-  color: black;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -190,16 +169,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (max-width: 500px) {
-  .home {
-    max-width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .home .intro img {
-    width: 100%;
-  }
 }
 .home .intro h2 {
   padding: 15px;
@@ -212,38 +181,14 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
-@media (max-width: 500px) {
-  .home .space-images {
-    max-width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media (max-width: 500px) {
-  .home .space-images .display {
-    display: none;
-  }
-}
 .home .space-images img {
-  width: 40%;
+  width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
-@media (max-width: 500px) {
-  .home .space-images img {
-    width: 75%;
-  }
-}
 .home .visit-planets {
   padding: 15px;
-}
-@media (max-width: 500px) {
-  .home .visit-planets {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -266,44 +211,6 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
-}
-.home .walk .walk-text .btn {
-  display: block;
-  background-color: #22283A;
-  margin: 0 10px 20px;
-  cursor: pointer;
-  width: 120px;
-  height: 45px;
-  font-size: 2rem;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
-  padding-top: 10px;
-}
-.home .walk .walk-text .btn:hover {
-  background-color: white;
-  color: #22283A;
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn:hover {
-    background-color: white;
-    color: #22283A;
-  }
-}
-@media (max-width: 500px) {
-  .home .walk .walk-text .btn {
-    display: block;
-    background-color: #22283A;
-    margin: 0 10px 20px;
-    cursor: pointer;
-    width: 300px;
-    height: 45px;
-    font-size: 2rem;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-  }
 }
 .home .walk .walk-img {
   width: 46%;
